@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width-device-width, initial-scale-1.0">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="./cadastro.css">
+</head>
+
+<body>
+  <h1>Cadastro</h1>
+  <main>
+    <section>
+    <form method="post" action="./index.html"> 
+      <label for="Nome:"><b>Nome:</b></label><br>
+      <input type="text" name="Nome" id="Nome"><br><br>
+      <label for="Nome:"><b>Usuario:</b></label><br>
+      <input type="text" name="Usuario" id="Usuario"><br><br>
+      <label for="E-mail:"><b>E-mail:</b></label><br>
+      <input type="text" name="E-mail" id="E-mail"><br><br>
+      <label for="Senha:"><b>Senha:</b></label><br>
+      <input type="password" name="Senha" id="Senha"><br><br>
+      <label for="Confirmar Senha:"><b>Confirmar Senha:</b></label><br>
+      <input type="password" name="Confirmar Senha" id="Confirmar Senha"><br><br>
+      <label for="Casas"><b>Selecione a sua casa:</b></label><br>
+      <select name="Casas" required="required">
+        <option value="Grifinória">Grifinória</option>
+        <option value="Sonserina">Sonserina</option>
+        <option value="Corvinal">Corvinal</option>
+        <option value="Lufa-Lufa">Lufa-Lufa</option>
+      </select><br><br>   
+      </form>
+      <a href="./index.html"><button class="cadastrar">Cadastrar</button></a>   
+      <a href="./index.html"><button class="Cancelar">Cancelar</button></a>
+    </section>
+  </main>
+  <footer class="footer">
+    Todos Direitos reservados&copy;
+  </footer>
+</body>
+</html>

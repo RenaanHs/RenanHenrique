@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&family=Playfair+Display:ital,wght@1,500&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/mapa\ do\ maroto.gif);
+}
+h1{
+    text-align: center;
+    font-size: 80px;
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    
+}
+main{    
+    width: 80%;
+    padding: 90px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 5px 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+form{
+
+    font-family: Arial, sans-serif;
+    color: black;
+    text-align: center;
+    width: 100% ;    
+}
+
+input[type=text] {
+    background-color: transparent;
+    border: 2px solid #363636;
+    border-radius: 5px;  
+    width: 250px;
+    height: 40px;
+    padding:10px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    background-color: transparent;
+    border: 2px solid #363636;
+    border-radius: 5px;  
+    width: 250px;
+    height: 40px;
+    padding:10px;
+    box-sizing: border-box;
+}
+select{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    font-family: Arial, sans-serif;
+    font-size: 13;  
+    border-radius: 2px;
+}
+.Cancelar{
+    border: 1px solid black;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    float: right;
+    font-size: 13;
+    width: 125px;
+    height: 45px;  
+    border-radius: 2px;
+}
+.cadastrar{
+    border: 1px solid black;
+    padding: 5px 5px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    float: right;
+    font-size: 13;
+    width: 125px;
+    height: 45px;  
+    border-radius: 2px;
+}
+.footer{
+    grid-area: footer;
+    text-align: center;
+    color: black;
+    margin-top: 40px;
+}

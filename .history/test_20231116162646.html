@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    <link rel="stylesheet" href="casas.css">
+
+</head>
+<body>
+    <a href="#"><img src="./img/grif.jpg" alt="Imagem da casa de Grifinória"></a>
+    <dialog>
+        <h2>Grifinória</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, doloribus. Quam corporis provident, minima deserunt veniam pariatur illum repudiandae quia aut, atque amet magni! Quia reprehenderit doloremque et ratione aspernatur?
+        </p>
+    </dialog>
+    <br><br><br><br><br><br><br><br>
+</body>
+<script>
+    const paragrafo = document.querySelector("div div p");/*Selecionando o paragrafo que esta dentro das duas divs*/
+    const tagsP = document.querySelectorAll("p");//vetor
+    const span = document.querySelector("span");
+
+    tagsP.forEach(p =>{
+      p.style.color = "green";
+    });
+    paragrafo.style.color = "blue";
+
+    span.style.backgroundColor = "grey";
+    span.style.display = "block";
+    span.style.padding = "10px";
+
+    //Modal
+    const modal = document.querySelector("dialog");
+    const btnmodal = document.querySelectorAll("a");
+
+    btnmodal[0].onclick = function(){
+        modal.showModal();
+    }
+    btnmodal[1].onclick = function(){
+        modal.close();
+    }
+
+    modal.addEventListener("click", event => {
+        if(event.target === modal){
+            modal.close();
+        }
+    });
+
+</script>
+
+</html>
