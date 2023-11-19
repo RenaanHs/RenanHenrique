@@ -131,6 +131,19 @@ img {
     }
 }
 
+dialog {
+    color: black;
+    background-image: url(./img/fd8dd9c892f32d43780cb9a23a992cbc.jpg);
+    background-position: top;
+    width: 70%;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+}
 .nova-imagem{
     background-image: url(./img/fd8dd9c892f32d43780cb9a23a992cbc.jpg);
 }
